@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>My Personal Blog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="sliki/LOGO.png" class="logo">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#favourites">Favourites</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact">Contact + Q&A</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>my personal blog</p>
+                    <h1>Hello everyone,<br>welcome and get to know me!</h1>
+                </div>
+            </div>
+        </div>
+        <!-------pocnuva about delot------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="sliki/slika.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>In 2018 I have graduated from the
+                        Gymnasium Koco Racin and right now I am
+                        a student at the Faculty of Electrical
+                        Engineering & Information Technologies in
+                        the Ss. Cyril and Methodius University.
+                        I like to think of myself as a passionate
+                        team player, creative thinker, adaptable in
+                        various situations. My passions other that
+                        what I'm studying are foreign languages,
+                        travelling, cooking and social media.
+                        I have proven to have great communication skills,
+                        creative problem solving abilities and friendly nature.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>Java</li>
+                                <li>C programming</li>
+                                <li>C++ programming</li>
+                                <li>Leadership skills</li>
+                                <li>Communication skills</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="languages">
+                            <ul>
+                                <li>English<br><span>Fluent, around C2</span></li>
+                                <li>German<br><span>Studied for 7 years, around B1/B2</span></li>
+                                <li>Italian<br><span>Around A2</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li>"International cusine"<br><span>Riga, Latvia (2016)</span></li>
+                                <li>"Sports and Health"<br><span>Braga, Portugal (2018)</span></li>
+                                <li>"Integration and European union"<br><span>Trofaiach, Austria (2021)</span></li>
+                                <li>"Migrant inclusion in the modern society"<br><span>Berlin, Germany (2022)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------pocnuva favourites delot------->
+        <div id="favourites">
+            <div class="container">
+                    <h1 class="sub-title">Favourites</h1>
+                    <p>Here are a few of my favourite things
+                        to occupy my free time. Below you can
+                        find the music that I listen to the most,
+                        my comfort movies and tv-shows, and my
+                        absolute favourite recipes to make!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('music')" >Music</p>
+                        <p class="tab-links" onclick="opentab('movies')">Movies</p>
+                        <p class="tab-links" onclick="opentab('food')">Food</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="music">
+                        <p>My music taste shifts on a day to day
+                            basis depending on how I'm feeling.
+                            With that in mind, a couple of weeks
+                            ago I created</p> <p><a href = "https://open.spotify.com/playlist/2R2fcSnqErB3UGKoBgRfSZ?si=c8928db7ff844795"> my perfect autumnal playlist</a></p>
+                            <p>to listen to on a rainy november
+                            day, just like these ones. Other days
+                            I catch myself feeling nostalgic, so 
+                            I love to listen to the biggest 2000s
+                            hits which I grew up with</p> 
+                            <p><a href = "https://open.spotify.com/playlist/1Zo1tVTe2bh95N9wdzsP7d?si=50851354ccf24281">(find the playlist here)!</a></p>
+                    </div>
+                    <div class="tab-contents" id="movies">
+                        <p>When it comes to movies and tv shows I'm not
+                            very picky and I'll pretty much watch anything,
+                            but of course there are a few that are my
+                            comfort ones. No matter how "basic"it is my
+                            absolute favourite is the "Harry Potter" franchise
+                            and of course you could never go wrong with
+                            a classic romantic comedy (think anything with
+                            Julia Roberts or Hugh Grant) or one of my
+                            absolute favourites - "10 things i hate about you",
+                            alongside with "Wild child", "Mean girls" etc. 
+                        </p>
+                        <h5><em>In case you've never seen these movies, below
+                            I will link some of my favourite scenes from them:
+                        </em></h5>
+                        <p><a href = "https://www.youtube.com/watch?v=wP2OdJizkWA">The funniest scenes from the "Harry Potter" movies</a></p>
+                        <p><a href = "https://www.youtube.com/watch?v=nebaBmsafv8">The scene where Patrick serenades Kat in "10 things i hate about you"</a></p>
+                        <p><a href = "https://www.youtube.com/watch?v=H9Z3_ifFheQ">Trailer for one of my favourite (if not my favourite) Christmas movies</a></p>
+                        <p><a href = "https://www.youtube.com/watch?v=28wGFUHo1_A">The funniest one-liners from "Mean girls"</a></p>
+                    </div>
+                    <div class="tab-contents" id="food">
+                        <p>One of my favourite hobbies of all time is 
+                            trying out new recipes. In today's world
+                            even though we have every possible recipe at
+                            out fingertips sometimes we get confused
+                            because the media is just so over saturated
+                            with content creators, so I think it's really
+                            important finding a couple that you like
+                            and start experimenting with your food. 
+                            My recommendations would be:
+                        </p>
+                        <p><a href = https://snestorovska.com/sochen-choko-malina-banana-leb>This chocolate raspberry banana bread</a></p>
+                        <img src="sliki/recept1.png">
+                        <p><a href = https://www.youtube.com/watch?v=zI4D36NtcLA&t=378s>My favourite pasta ever</a></p>
+                        <img src="sliki/recept2.png">
+                        <p><a href = https://www.instagram.com/kokarche/?hl=en>The most aesthetically pleasing food I've ever seen</a></p>
+                        <img src="sliki/recept3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------pocnuva galerija delot------->
+        <div id="gallery">
+            <div class="container">
+                <h1 class="sub-title">My Gallery</h1>
+                <p>Take a small peek into my travelling diary from these past few months!</p>
+                <table id="table1">
+                    <tr>
+                        <td id="tabledata" style="text-align: left; vertical-align: top;">
+                        <h3 class="invistext2">The Eiffel Tower</h3>
+                        <img id="images" src="sliki/paris.jpg" width="250" height="300"/>
+                        <div id="picdesc">
+                            <h2 id="desc">#paris #sparkle</h2>
+                            <img onclick="handleClick()" id="clickme1" src="sliki/heart.png" width="20" height="20" class="heart" name="button1"/>
+                            <h5 class="liketext">Like</h5>
+                            <p id="likeCounter1">0</p>
+                        </div>
+
+                        <div id="box">
+                            <p id="comment1" class="c1"></p>
+                            <form onsubmit="comment1()">
+                                <input type="text" id="input1" placeholder="Add a comment"/>
+                                <input type="submit" id="submitbutton" value="Add comment">
+                            </form>
+                        </div>
+                        </td>
+                        <td id="tabledata" style="text-align: left; vertical-align: top;">
+                            <h3 class="invistext1">a beach in Amalfi</h3>
+                            <img id="images" src="sliki/amalfi.jpg"width="250" height="300"/>
+                            <div id="picdesc">
+                                <h2 id="desc">#sea #sun #summer</h2>
+                                <img onclick="handleClick()" id="clickme2" src="sliki/heart.png" class="heart"  width="20" height="20" name="button2"/>
+                                <h5 class="liketext">Like</h5>
+                                <p id="likeCounter2">0</p>
+                            </div>
+    
+                            <div id="box">
+                                <p id="comment2"></p>
+                                <form onsubmit="comment2()">
+                                    <input type="text" id="input2" placeholder="Add a comment"/>
+                                    <input type="submit" id="submitbutton" value="Add comment">
+                                </form>
+                            </div>
+                        </td>
+                        <td id="tabledata"style="text-align: left; vertical-align: top;">
+                            <h3 class="invistext3">San Pietro Basillica in Vatican</h3>
+                            <img id="images" src="sliki/rim.jpg"width="250" height="300"/>
+                            <div id="picdesc">
+                                <h2 id="desc">#rome #sunset</h2>
+                                <img onclick="handleClick()" id="clickme3" src="sliki/heart.png"  width="20" height="20" class="heart" name="button3"/>
+                                <h5 class="liketext">Like</h5>
+                                <p id="likeCounter3">0</p>
+                            </div>
+
+                            <div id="box">
+                                <p id="comment3"></p>
+                                <form onsubmit="comment3()">
+                                    <input type="text" id="input3" placeholder="Add a comment"/>
+                                    <input type="submit" id="submitbutton" value="Add comment"> 
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-------pocnuva favourites delot------->
+        <!-------pocnuva favourites delot------->
+        <!-------pocnuva contact delot------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><img src="sliki/emaillogo.png" width="20" height="20" style="float:left"/> donazarova12@gmail.com</p>
+                        <p><img src="sliki/telefonlogo.png" width="20" height="20" style="float:left"/> +389 77 650 498</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/dona.zarova/"><img src="sliki/fblogo.png"width="100" height="100"></a>
+                            <a href="https://www.instagram.com/donazarova/"><img src="sliki/instalogo.png"width="100" height="100"></a>
+                            <a href="https://www.linkedin.com/in/dona-zarova/"><img src="sliki/linkedinlogo.png "width="100" height="100"></a>
+                            <a href="https://github.com/donazarova"><img src="sliki/25231.png"width="100" height="100"/></a>
+                        </div>
+                        <a href="sliki/CV_dona.pdf" download="" class="btn btn2">Download my CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Enter your name" required>
+                            <input type="email" name="email" placeholder="Enter your e-mail" required>
+                            <textarea name="Message" rows="5" placeholder="Write your message for me..."></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+            const button1 = document.getElementById("clickme1")
+            const button2 = document.getElementById("clickme2")
+            const button3 = document.getElementById("clickme3")
+            let count1 = Number(JSON.parse(localStorage.getItem('likes1'))) || 0;
+            let count2 = Number(JSON.parse(localStorage.getItem('likes2'))) || 0;
+            let count3 = Number(JSON.parse(localStorage.getItem('likes3'))) || 0;
+            const likeCounter1 = document.getElementById("likeCounter1")
+            const likeCounter2 = document.getElementById("likeCounter2")
+            const likeCounter3 = document.getElementById("likeCounter3")
+            const handleClick = () => {
+            const buttonName = event.target.name
+            console.log(buttonName)
+            if (buttonName === "button1") {
+                count1 += 1
+                likeCounter1.innerHTML = count1
+                localStorage.setItem('likes1', count1);
+            }
+            if (buttonName === "button2") {
+                count2 += 1
+                likeCounter2.innerHTML = count2;
+                localStorage.setItem('likes2', count2);
+            }
+            if (buttonName === "button3") {
+                count3 += 1
+                likeCounter3.innerHTML = count3;
+                localStorage.setItem('likes3', count3);
+            }
+        }
+        const onLoad = () => {
+            let json1 = [];
+            let json2 = [];
+            let json3 = [];
+            let string1 = "";
+            let string2 = "";
+            let string3 = "";
+            let likeNum1 = JSON.parse(localStorage.getItem('likes1')) || 0;
+            let likeNum2 = JSON.parse(localStorage.getItem('likes2')) || 0;
+            let likeNum3 = JSON.parse(localStorage.getItem('likes3')) || 0;
+
+            if (localStorage.getItem('comments1')) {
+                json1 = JSON.parse(localStorage.getItem('comments1'));
+                string1 = "";
+                for (var i = 0; i < json1.length; i++) {
+                    var obj1 = json1[i];
+                    let st1 = JSON.stringify(obj1);
+                    string1 += st1;
+                    string1 += "<hr>";
+                }
+            }
+            if (localStorage.getItem('comments2')) {
+                json2 = JSON.parse(localStorage.getItem('comments2'));
+                string2 = "";
+                for (var i = 0; i < json2.length; i++) {
+                    var obj2 = json2[i];
+                    let st2 = JSON.stringify(obj2);
+                    string2 += st2;
+                    string2 += "<hr>";
+                }
+            }
+            if (localStorage.getItem('comments3')) {
+                json3 = JSON.parse(localStorage.getItem('comments3'));
+                string3 = "";
+                for (var i = 0; i < json3.length; i++) {
+                    var obj3 = json3[i];
+                    let st3 = JSON.stringify(obj3);
+                    string3 += st3;
+                    string3 += "<hr>";
+                }
+            }
+            document.getElementById("comment1").innerHTML = string1;
+            document.getElementById("comment2").innerHTML = string2;
+            document.getElementById("comment3").innerHTML = string3;
+            document.getElementById("likeCounter1").innerHTML = likeNum1;
+            document.getElementById("likeCounter2").innerHTML = likeNum2;
+            document.getElementById("likeCounter3").innerHTML = likeNum3;
+        }
+        function comment1() {
+            event.preventDefault()
+            let t1 = document.getElementById("input1").value;
+            let comm1 = JSON.parse(localStorage.getItem('comments1')) || [];
+            var datum1 = new Date();
+            t1 = guest + ': ' + t1 + '<br>' + datum1.toUTCString();
+            comm1.push(t1)
+            localStorage.setItem('comments1', JSON.stringify(comm1))
+            console.log(comm1)
+            let newString1 = ""
+            comm1.forEach(element => {
+                newString1 += element
+                newString1 += "<hr>"
+            });
+            document.getElementById("comment1").innerHTML = newString1;
+        }
+        function comment2() {
+            event.preventDefault()
+            let t2 = document.getElementById("input2").value;
+            let comm2 = JSON.parse(localStorage.getItem('comments2')) || [];
+            var datum2 = new Date();
+            t2 = guest + ': ' + t2 + '<br>' + datum2.toUTCString();
+            comm2.push(t2)
+            localStorage.setItem('comments2', JSON.stringify(comm2))
+            console.log(comm2)
+            let newString2 = ""
+            comm2.forEach(element => {
+                newString2 += element
+                newString2 += "<hr>"
+            });
+            document.getElementById("comment2").innerHTML = newString2;
+        }
+        function comment3() {
+            event.preventDefault()
+            let t3 = document.getElementById("input3").value;
+            let comm3 = JSON.parse(localStorage.getItem('comments3')) || [];
+            var datum3 = new Date();
+            t3 = guest + ': ' + t3 + '<br>' + datum3.toUTCString();
+            comm3.push(t3)
+            localStorage.setItem('comments3', JSON.stringify(comm3))
+            console.log(comm3)
+            let newString3 = ""
+            comm3.forEach(element => {
+                newString3 += element
+                newString3 += "<hr>"
+            });
+            document.getElementById("comment3").innerHTML = newString3;
+        }
+        </script>
+    </body>
+</html>    
